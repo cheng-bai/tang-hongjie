@@ -199,6 +199,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .entry-meta { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px; color: var(--clay-light); font: 10px/1.8 var(--mono); letter-spacing: .04em; }
 .entry-status { color: rgba(241, 238, 229, .8); font: 10px/1.8 var(--sans); letter-spacing: .02em; }
 .journal-entry h4 { margin: 20px 0 8px; font: 500 23px/1.5 var(--serif); letter-spacing: -.035em; }
+.project-site-link { display: inline-block; padding-block: 4px; text-decoration: underline; text-decoration-color: rgba(241, 238, 229, .4); text-underline-offset: 7px; text-decoration-thickness: 1px; }
+.project-site-link > span[aria-hidden] { display: inline-block; margin-left: 8px; color: var(--clay-light); font: 17px var(--sans); }
+.project-site-link:hover { color: var(--clay-light); text-decoration-color: currentColor; }
 .entry-subtitle { margin: 0 0 15px; color: var(--clay-light); font: 13px/1.9 var(--serif); }
 .entry-description { margin: 0; color: rgba(241, 238, 229, .85); font: 14px/2 var(--serif); }
 .entry-details { margin-top: 19px; }
